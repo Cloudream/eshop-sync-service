@@ -32,7 +32,7 @@ targetCompatibility = 1.8
 
 //插件运行
 bootJar {
-    mainClassName = 'com.cloudream.eureka.server.Application'
+    mainClassName = 'com.cloudream.eshop.sync.EshopSyncApplication'
 }
 
 //打包
