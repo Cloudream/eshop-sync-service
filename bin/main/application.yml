@@ -1,0 +1,14 @@
+server:
+  port: 8771
+spring:
+  application:
+    name: eshop-sync-service
+  rabbitmq:
+    host: 192.168.199.133
+    port: 5672
+    username: rabbitadmin
+    password: 123456
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.199.135:8761/eureka/

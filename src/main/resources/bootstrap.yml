@@ -1,0 +1,8 @@
+#config-server
+spring:
+  cloud:
+    config:
+      label: master
+      uri: http://192.168.199.135:8766/
+      profile: linux
+      name: datasource
